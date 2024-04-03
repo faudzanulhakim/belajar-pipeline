@@ -1,6 +1,10 @@
 pipeline {
-    agent any
-    stages{
+    agent {
+    node {
+        label 'linux && java11'
+    }
+}
+    stages {
         stage('Hallo'){
             steps{
                 echo('Hello Pipeline')
