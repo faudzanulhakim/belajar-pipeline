@@ -1,4 +1,4 @@
-peline {
+pipeline {
     agent any
     stages{
         stage('Hallo'){
@@ -8,4 +8,3 @@ peline {
         }
     }    
 }        
-
