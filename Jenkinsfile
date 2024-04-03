@@ -5,8 +5,8 @@ pipeline {
     }
 }
     stages {
-        stage('Hallo'){
-            steps{
+        stage('Hallo') {
+            steps {
                 echo('Hello Pipeline')
             }
         }
